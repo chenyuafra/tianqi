@@ -10,7 +10,7 @@ function getWether(city) {
 	$(".now_city .now_city_name").html(city);
 	// log($(".now_city .now_city_name").html(city));
 	$.ajax({
-		url:"http://api.jisuapi.com/weather/query?appkey=e7f29c142c92f940&city="+city,
+		url:"http://api.jisuapi.com/weather/query?appkey=5cdd5ae71ca077ec&city="+city,
 		dataType:"jsonp",
 
 		success:function (r) {
